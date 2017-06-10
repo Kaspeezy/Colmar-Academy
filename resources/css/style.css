@@ -1,0 +1,161 @@
+html {
+	font-family: Arial;
+	font-size: 16px;
+}
+
+header {
+	display: flex;	
+	align-items: center;
+	height: 64px;
+	width: 100%;
+	background-color: white;
+}
+
+.content {
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	padding-left: 24px;
+	flex-grow: 1;
+}
+
+.logo img {
+	height: 50px;
+	width: 50px;
+}
+
+.logo .bold {
+	font-weight: bold;
+	font-size: 1.25rem;
+}
+
+.logo span {
+	font-size: 1.25rem;
+}
+
+nav span {
+	display: inline-block;
+	padding: 0 16px;
+}
+
+.banner {
+	background-color: lightgrey;
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+
+.banner img {
+	width: 60%;
+	height: 60%;
+	display: flex;
+	align-items: center;
+	padding: 32px 40px 32px 24px;
+}
+
+.banner h2 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #4d4d4d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 1.2;
+}
+
+.banner p {
+	color: #4d4d4d;
+	font-size: 1.25rem;
+	font-family: verdana;
+	line-height: 1.5;
+	padding: 24px 0px;
+}
+
+.start-button span {
+	display: flex;
+	justify-content: center;
+	background-color: #4d4d4d;
+	color: white;
+	padding: 16px;
+	width: 70%;
+}
+
+.body {
+	display: flex;
+}
+
+.practice img {
+	width: 100%;
+}
+
+.practice {
+	padding: 32px 24px;
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+}
+
+.practice h3 {
+	color: #4d4d4d;
+	font-size: 2rem;
+	padding-top: 32px;
+	font-weight: bold;
+}
+
+.practice p {
+	font-size: 1.25rem;
+	padding: 24px 0;
+}
+
+.practice span {
+	font-weight: bold;
+	color: #4d4d4d;
+}
+
+.side {
+	display: flex;
+}
+
+h5 {
+	font-weight: bold;
+	color: #4d4d4d;
+	font-size: 1.25rem;
+}
+
+.right-bar {
+	padding-top: 16px;
+	border-left: 1px solid lightgrey;
+	width: 423px;
+}
+
+.side {
+	padding: 16px;
+	display: flex;
+	align-items: center;
+}
+
+.side img {
+	width: 35%;
+	height: 100%;
+}
+
+.block {
+	padding: 16px;
+	line-height: 1.2;
+}
+
+.block p {
+	font-size: 14px;
+	padding: 8px 0;
+	line-height: 1.5;
+}
+
+.block h6 {
+	font-size: 0.75rem;
+}
+
+a {
+	color: cornflowerblue;
+}
