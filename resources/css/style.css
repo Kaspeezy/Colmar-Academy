@@ -134,10 +134,11 @@ h5 {
 	padding: 16px;
 	display: flex;
 	align-items: center;
+	height: 168px;
+	width: 423px;
 }
 
 .side img {
-	width: 35%;
 	height: 100%;
 }
 
@@ -158,4 +159,73 @@ h5 {
 
 a {
 	color: cornflowerblue;
+}
+
+.learning {
+	background-color: lightgrey;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	padding: 32px;
+}
+
+.title h5 {
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.courses {
+	display: flex;
+	justify-content: center;
+}
+
+.column {
+	margin: 16px;
+	display: flex;
+	flex-direction: column;
+}
+
+.box {
+	background-color: white;
+	margin: 16px 0;
+	width: 300px;
+	height: 360px;
+}
+
+.box img {
+	width: 100%;
+}
+
+.text {
+	padding: 16px;
+	line-height: 1.5;
+}
+
+.text h5 {
+	padding: 16px 0;
+	font-size: 1.4rem;
+}
+
+.text h4 {
+	color: darkgrey;
+}
+
+.text p {
+	padding: 8px 0;
+	color: darkgrey;
+}
+
+.thesis {
+	display: flex;
+}
+
+.vid {
+	padding: 24px;
+}
+
+.text-bottom {
+	line-height: 1.5;
+
 }
