@@ -1,5 +1,5 @@
 html {
-	font-family: Arial;
+	font-family: arial, sans-serif;
 	font-size: 16px;
 }
 
@@ -9,6 +9,11 @@ header {
 	height: 64px;
 	width: 100%;
 	background-color: white;
+}
+
+header a {
+	text-decoration: none;
+	color: darkgrey;
 }
 
 .content {
@@ -105,12 +110,14 @@ nav span {
 }
 
 .practice p {
-	font-size: 1.25rem;
+	font-size: 1rem;
 	padding: 24px 0;
+	color: darkgrey;
 }
 
 .practice span {
 	font-weight: bold;
+	padding-top: 24px;
 	color: #4d4d4d;
 }
 
@@ -223,9 +230,82 @@ a {
 
 .vid {
 	padding: 24px;
+	width: 60%;
+}
+
+.vid video {
+	width: 100%;
 }
 
 .text-bottom {
 	line-height: 1.5;
+	padding: 24px 0;
+}
 
+.text-bottom h5{
+	padding: 24px 0;
+}
+
+.text-bottom p {
+	color: darkgrey;
+	padding-bottom: 32px;
+}
+
+.aside {
+	display: flex;
+	align-items: center;
+	padding: 16px;
+}
+
+.aside img {
+	width: 35%;
+	margin: 16px 0;
+}
+
+.aside a {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	padding: 16px;
+}
+
+.aside a:hover {
+	background-color: lightgrey;
+	text-decoration: none;
+
+}
+
+.words {
+	padding: 24px;
+	line-height: 1.2;
+}
+
+.words p {
+	padding-top: 32px;
+	color: darkgrey;
+}
+
+.fisma {
+	padding-top: 42px;
+}
+
+footer {
+	color: darkgrey;
+	display: flex;
+	border-top: 1px solid lightgrey;
+	padding: 24px;
+	margin-bottom: 64px;
+}
+
+footer p {
+	width: 100%;
+}
+
+footer span {
+	padding: 0 12px;
+}
+
+footer a {
+	text-decoration: none;
+	color: darkgrey;
 }
