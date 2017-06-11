@@ -19,16 +19,20 @@ header a {
 .content {
 }
 
+.small {
+	display: none;
+}
+
 .logo {
 	display: flex;
 	align-items: center;
-	padding-left: 24px;
 	flex-grow: 1;
 }
 
-.logo img {
+header img {
 	height: 50px;
 	width: 50px;
+	padding-left: 24px;
 }
 
 .logo .bold {
@@ -308,4 +312,34 @@ footer span {
 footer a {
 	text-decoration: none;
 	color: darkgrey;
+}
+
+@media only screen and (max-width: 480px) {
+	.small {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 24px;
+		width: 100%;
+	}
+
+	.small img {
+		width: 75%;
+	}
+
+	.small a {
+		width: 100%;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	header nav {
+		display: none;
+	}
+
+	.banner img {
+		display: none;
+	}
 }
